@@ -1,0 +1,44 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+ .inner-flex {
+    display: flex;
+    flex-direction: row;   /* second flex row */
+    gap: 10px;
+} 
+
+.item2{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 300px; 
+    flex-wrap: wrap; 
+    border-radius: 10px;
+    border: 20px;
+    
+}
+.mybutton{
+    background-color: whitesmoke;
+    color: black; 
+    border-radius: 10px;
+    margin: 10px;
+}
+.mybutton2{
+    background-color: greenyellow;
+    color: white; 
+    border-radius: 10px;
+    margin:10px;
+}
+
+.pic {
+    
+    border-radius: 10px;  /* Rounded corners */
+    object-fit: cover;     /* Prevents stretching */
+    overflow: hidden;      /* Ensures radius clips image */
+    display: block;
+    width: 200px;    /* Removes inline gaps */
+}
